@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+  <form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username" required>
+    <input type="password" name="password" placeholder="password" required>
+    <button >Sign Up</button>
+  </form>
+  <div style="height:10px;width:auto;"></div>
+  <form action="/reportadd" method="POST">
+    <input type="text" name="title" placeholder="title" required/>
+    <input type="text" name="content" placeholder="content" required/>
+    <input type="text" name="adharid" placeholder="adharid" required/>
+    <button >add report</button>
+  </form>
+  <div style="height:10px;width:auto;"></div>
+  <form action="/missingadd" method="POST">
+    <input type="text" name="title" placeholder="title" required/>
+    <input type="text" name="content" placeholder="content" required/>
+    <input type="text" name="adharid" placeholder="adharid" required/>
+    <button >add missing</button>
+  </form>
+</body>
+</html>
